@@ -1,0 +1,31 @@
+# Unity Generated Files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Packages/com.unity.collab-proxy/
+
+# Visual Studio
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.unityproj
+*.booproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Crash logs
+sysinfo.txt
+
+# Unity Cache Server
+unitycache/
