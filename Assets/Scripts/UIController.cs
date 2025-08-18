@@ -31,8 +31,7 @@ public class UIController : MonoBehaviour
         }
 
         // 2. 화살표 버튼 숨기기
-        if (leftArrowButton != null) leftArrowButton.SetActive(false);
-        if (rightArrowButton != null) rightArrowButton.SetActive(false);
+        HideArrowButtons();
 
         // 3. 각 버튼에 클릭 이벤트 연결
         if (moveButton != null) moveButton.onClick.AddListener(ToggleArrowButtons);
@@ -64,6 +63,13 @@ public class UIController : MonoBehaviour
                 Debug.LogError("RightArrowButton에 Button 컴포넌트가 없습니다.");
             }
         }
+    }
+
+    // 화살표 버튼 숨기기
+    public void HideArrowButtons()
+    {
+        if (leftArrowButton != null) leftArrowButton.SetActive(false);
+        if (rightArrowButton != null) rightArrowButton.SetActive(false);
     }
 
     // "이동" 버튼 기능
