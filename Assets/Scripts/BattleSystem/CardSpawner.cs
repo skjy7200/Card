@@ -9,7 +9,7 @@ public class CardSpawner : MonoBehaviour
     public Transform handPanel;
     public GameObject cardPrefab;
 
-    public CardData sampleCardData;
+    [SerializeField] private List<CardData> cardPool = new List<CardData>();
 
     private List<RectTransform> handCards = new List<RectTransform>();
 
@@ -49,6 +49,13 @@ public class CardSpawner : MonoBehaviour
 
     public void SpawnCard()
     {
+        if (cardPool == null || cardPool.Count == 0)
+        {
+            Debug.LogWarning("카드 풀이 비어 있습니다.");
+            return;
+        }
+        CardData randomCard = cardPool[Random.Range(0, cardPool.Count)];
+
         GameObject card = Instantiate(cardPrefab);
 
         card.transform.SetParent(handPanel, false);
@@ -86,7 +93,7 @@ public class CardSpawner : MonoBehaviour
             {
                 defaultTarget = BattleManager.Instance.enemyUnits[0]; // 첫 번째 적
             }
-            cardUI.SetCard(sampleCardData, defaultTarget);
+            cardUI.SetCard(randomCard, defaultTarget);
 
             Button button = card.GetComponent<Button>();
             if (button != null)
