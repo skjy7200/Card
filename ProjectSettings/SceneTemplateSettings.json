@@ -58,11 +58,14 @@
         },
         {
             "userAdded": false,
+<<<<<<< HEAD
             "type": "UnityEngine.PhysicMaterial",
             "defaultInstantiationMode": 0
         },
         {
             "userAdded": false,
+=======
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
             "type": "UnityEngine.PhysicsMaterial",
             "defaultInstantiationMode": 0
         },

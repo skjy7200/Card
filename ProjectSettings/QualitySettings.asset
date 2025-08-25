@@ -4,7 +4,11 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
+<<<<<<< HEAD
   m_CurrentQuality: 0
+=======
+  m_CurrentQuality: 5
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
   m_QualitySettings:
   - serializedVersion: 4
     name: Very Low
@@ -47,7 +51,11 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 6c111c9eba2a1654a94d68ebc86d9ef3, type: 2}
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -99,7 +107,11 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 6c111c9eba2a1654a94d68ebc86d9ef3, type: 2}
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -151,7 +163,11 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 6c111c9eba2a1654a94d68ebc86d9ef3, type: 2}
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -203,7 +219,11 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 6c111c9eba2a1654a94d68ebc86d9ef3, type: 2}
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -230,7 +250,11 @@ QualitySettings:
     globalTextureMipmapLimit: 0
     textureMipmapLimitSettings: []
     anisotropicTextures: 2
+<<<<<<< HEAD
     antiAliasing: 2
+=======
+    antiAliasing: 0
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -255,7 +279,11 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 6c111c9eba2a1654a94d68ebc86d9ef3, type: 2}
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1
@@ -307,7 +335,11 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
+<<<<<<< HEAD
     customRenderPipeline: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
+=======
+    customRenderPipeline: {fileID: 11400000, guid: 6c111c9eba2a1654a94d68ebc86d9ef3, type: 2}
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
     terrainQualityOverrides: 0
     terrainPixelError: 1
     terrainDetailDensityScale: 1

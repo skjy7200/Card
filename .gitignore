@@ -11,6 +11,10 @@ Packages/com.unity.collab-proxy/
 
 # Visual Studio
 .vscode/
+<<<<<<< HEAD
+=======
+.vs/
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
 *.csproj
 *.sln
 *.suo
@@ -20,6 +24,10 @@ Packages/com.unity.collab-proxy/
 *.unityproj
 *.booproj
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 43c7310ed5cce429411408c9d250400ee0f9bc80
 # OS
 .DS_Store
 Thumbs.db
